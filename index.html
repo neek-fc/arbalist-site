@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbalist - College Dev Group</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <img src="images/logo.svg" alt="Arbalist" class="logo">
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="mobile-menu" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="images/logo.svg" alt="Arbalist" class="hero-logo">
+            <h1>Expanding the Boundaries of Code</h1>
+            <p class="hero-description">
+                A collective of student developers pushing technology forward
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn primary">View Our Work</a>
+                <a href="#contact" class="btn secondary">Join Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Our Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image" style="background-color: #f0f0f0"></div>
+                <h3>Project Atlas</h3>
+                <p>AI-powered campus navigation system</p>
+                <a href="#" class="btn secondary">Learn More</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #e5e5e5"></div>
+                <h3>StudySync</h3>
+                <p>Collaborative study platform</p>
+                <a href="#" class="btn secondary">Learn More</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #dcdcdc"></div>
+                <h3>CampusConnect</h3>
+                <p>Event discovery and planning app</p>
+                <a href="#" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>Founding Team</h2>
+        <div class="team-intro">
+            <p>We are a group of passionate Computer Science students from Carnegie Mellon University's School of Computer Science. Brought together by our shared vision of creating innovative technology solutions, we founded Arbalist to push the boundaries of what's possible in software development.</p>
+            <p>Our diverse backgrounds and complementary skill sets allow us to tackle complex problems with creativity and precision. From web applications to machine learning models, we're committed to building tools that make a difference.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-image"></div>
+                <h3>Rashid Baddoura</h3>
+                <p>Full Stack Developer</p>
+                <p class="team-bio">Specializes in scalable architectures and cloud solutions. Passionate about creating robust systems that can handle millions of users.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image"></div>
+                <h3>Adam Abu Ghaida</h3>
+                <p>UI/UX Designer</p>
+                <p class="team-bio">Combines artistic vision with technical expertise to create intuitive and beautiful user experiences. Believes that good design should be invisible.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image"></div>
+                <h3>Sherkhan Bakdaulet</h3>
+                <p>Backend Developer</p>
+                <p class="team-bio">Database expert with a knack for optimizing performance. Loves solving complex algorithmic challenges and building efficient systems.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image"></div>
+                <h3>Sudais Arif</h3>
+                <p>Full Stack Developer</p>
+                <p class="team-bio">Jack of all trades who bridges the gap between frontend and backend. Always exploring new technologies and frameworks to improve our stack.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Interested in working with us? Get in touch!</p>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="join" class="join">
+        <h2>Join Arbalist</h2>
+        <p>Interested in joining our team? We're always looking for talented CMU students to collaborate with!</p>
+        
+        <div class="application-form">
+            <form id="applicationForm" action="https://formsubmit.co/adamghaida@cmu.edu" method="POST">
+                <input type="hidden" name="_subject" value="New Arbalist Application">
+                <input type="hidden" name="_next" value="https://arbalist.org/thanks.html">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn primary">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <img src="images/logo.svg" alt="Arbalist" class="footer-logo">
+            <div class="footer-links">
+                <a href="#projects">Projects</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <p>&copy; 2025 Arbalist. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
